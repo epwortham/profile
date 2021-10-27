@@ -17,15 +17,19 @@
   }
 }
 
+body {
+  background-color: #fceff0;
+}
 
-h1, h2, h3 {
+
+h1, h2, h4 {
     color: #6C5B7B;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-p {
+h3 {
     color: #C06C84;
-    font-size: 16px;
+    /* font-size: 16px; */
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -40,10 +44,11 @@ a {
 }
 
 .card {
-  background-color: white;
+  background-color: #d4dce4;
+  border-radius: 10px;
   width: 500px;
   margin: 24px auto;
-  box-shadow: 0 0 16px rgb(0 0 0 / 18%);
+  box-shadow: rgba(53,92,125,0.6) 0px 5px, rgba(53,92,125,0.4) 0px 10px, rgba(53,92,125,0.2) 0px 15px, rgba(53,92,125,0.1) 0px 20px, rgba(53,92,125,0.05) 0px 25px;
   padding: 16px;
   text-align: center;
 }
@@ -77,8 +82,8 @@ a {
 }
 
 .list-inline a:hover {
-  color: #c738e0;
-  transition: .5s;
+  color: rgba(53,92,125,0.6);
+  transition: .7s;
 }
 
 .btn-purple {
@@ -90,6 +95,6 @@ a {
 }
 
 .btn-purple:hover {
-  background-color: #c738e0;
-  transition: .5s;
+  background-color: rgba(53,92,125,0.6);
+  transition: .7s;
 }
